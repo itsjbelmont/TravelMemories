@@ -6,4 +6,13 @@
     android:layout_height="match_parent"
     tools:context="com.example.jackbelmont.travelmemories.MainActivity">
 
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addLocButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="@android:color/darker_gray"
+        app:srcCompat="@android:drawable/ic_menu_add"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="454dp" />
 </android.support.constraint.ConstraintLayout>
